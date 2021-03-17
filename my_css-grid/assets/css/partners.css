@@ -1,0 +1,45 @@
+.partners-section{
+  padding-top: 55px;
+}
+
+.partner-image{
+  object-fit: cover;
+  width: 100%;
+}
+
+.how{
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.form-wrapper{
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.inputs{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+input[type="text"], input[type="email"], textarea{
+  padding: 5px 10px;
+  border-color: transparent;
+}
+
+.send-btn{
+  background-color: #34547A;
+  padding: 20px;
+  margin-top: 15px;
+  color: white;
+  text-transform: uppercase;
+  font-family: Roboto, sans-serif;
+  font-size: 0.9rem;
+  width: 33%;
+  align-self: center;
+  border-color: transparent;
+}

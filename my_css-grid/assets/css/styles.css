@@ -2,12 +2,16 @@
 @import url("./about_me.css");
 @import url("./my_projects.css");
 @import url("./skills.css");
+@import url("./how_i_work.css");
+@import url("./partners.css");
+@import url("./footer.css");
+@import url("./images-gallery.css");
 
 *{
   box-sizing: border-box;
 }
 
 .container{
-  background-color: rgba(219, 75, 75, 0.4);
+  /*background-color: rgba(219, 75, 75, 0.4);*/
 }
 
