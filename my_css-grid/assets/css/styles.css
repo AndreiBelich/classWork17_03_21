@@ -1,66 +1,13 @@
+@import url("./header.css");
+@import url("./about_me.css");
+@import url("./my_projects.css");
+@import url("./skills.css");
+
 *{
   box-sizing: border-box;
 }
 
 .container{
-  background-color: rgba(210,210,210, 0.4);
+  background-color: rgba(219, 75, 75, 0.4);
 }
 
-.header{
-  border: 1px solid red;
-}
-
-.header-row{
-  align-items: center;
-}
-
-.logo{
-  font-family: 'Revalia', cursive;
-  font-size: 3rem;
-  color: #34547A;
-}
-
-.nav-bar > ul{
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.list-item{
-  font-weight: 500;
-  text-transform: uppercase;
-}
-
-.header-content{
-  margin-top: 65px;
-  padding-bottom: 146px;
-}
-
-div.block{
-  width: 325px;
-  height: 225px;
-  background-color: teal;
-}
-
-.header-content-title{
-  font-size: 3em;
-  font-weight: 500;
-  font-family: 'Roboto', sans-serif;
-}
-
-.header-content-text{
-  font-size: 1rem;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  color: #727272;
-  margin: 45px 0;
-  line-height: 1.2em;
-}
-
-.header-content-button{
-  font-size: 1rem;
-  color: white;
-  text-transform: uppercase;
-  background-color: #34547A;
-  padding: 25px 40px;
-}
