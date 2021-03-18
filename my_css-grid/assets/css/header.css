@@ -3,13 +3,12 @@
 }
 .header-row{
   align-items: center;
-  background-color: #EEEFF1;
 }
 
 .logo{
   font-family: 'Revalia', cursive;
   font-size: 3rem;
-  color: #34547A;
+  color: var(--accent-color);
   position: relative;
   bottom: 10px;
 }
@@ -37,7 +36,6 @@
 .header-content{
   padding-top: 85px;
   padding-bottom: 146px;
-  background-color: #EEEFF1;
 }
 
 div.block{
@@ -49,14 +47,12 @@ div.block{
 .header-content-title{
   font-size: 3em;
   font-weight: 500;
-  font-family: 'Roboto', sans-serif;
 }
 
 .header-content-text{
   font-size: 1rem;
-  font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  color: #727272;
+  color: var(--primary-background-color);
   margin: 45px 0;
   line-height: 1.2em;
 }
@@ -65,7 +61,7 @@ div.block{
   font-size: 1rem;
   color: white;
   text-transform: uppercase;
-  background-color: rgb(52, 84, 122);
+  background-color: var(--accent-color);
   padding: 25px 40px;
   outline: none;
   border: none;
@@ -74,5 +70,5 @@ div.block{
 }
 
 .header-content-button:hover{
-  background-color: rgba(52, 84, 122, 0.85);
+  background-color: var(--light-accent-color);
 }
