@@ -16,4 +16,39 @@
 
 .describe-project{
   margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.project-num, .project-title{
+  color: var(--secondary-text-color);
+}
+
+@media screen and (max-width: 575px){
+  .my-project-block{
+    margin: 0 auto;
+    max-width: 33%;
+  }
+
+  .project + .project{
+    margin-top: 15px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px){
+  .my-projects-row .project:nth-child(3), .my-projects-row .project:nth-child(4){
+    margin: 15px 0;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .my-projects-row .project:nth-child(1n + 3){
+    margin-top: 15px;
+  }
+
+  .my-projects-row .project:nth-child(3){
+    margin-top: 0;
+    border: none;
+  }
 }
