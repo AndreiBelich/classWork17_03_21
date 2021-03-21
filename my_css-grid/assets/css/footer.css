@@ -1,29 +1,49 @@
 .row-align{
   justify-content: space-between;
+  align-items: center;
 }
 
 .main-footer{
-  background-color: #34547A;
+  background-color: var(--accent-color);
   padding: 30px 10px;
 }
 
 .social-icons{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-end;
 }
 
 .social-icon{
   object-fit: cover;
+  max-width: 100%;
+}
+
+.social-icon + .social-icon{
+  margin-left: 20px;
 }
 
 .developer-name{
   font-family: Roboto, sans-serif;
   font-size: 1.3rem;
-  color: white;
+  color: var(--secondary-text-color);
   margin-bottom: 10px;
 }
 
 .protect{
   font-size: 0.9rem;
-  color: white;
+  color: var(--secondary-text-color);
+}
+
+@media screen and (max-width: 768px){
+  .row-align{
+    flex-direction: column;
+  }
+
+  .social-icons{
+    margin-top: 20px;
+  }
+
+  .developer-info{
+    text-align: center;
+  }
 }

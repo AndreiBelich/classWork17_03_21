@@ -25,3 +25,25 @@
   left: 0;
   opacity: 0.5;
 }
+
+@media screen and (max-width: 767px){
+  .gallery-item{
+    width: 100%;
+  }
+
+  .gallery-item + .gallery-item{
+    margin-top: 15px;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .gallery-item{
+    width: 50%;
+  }
+}
+
+@media screen and (min-width:992px){
+  .gallery-item{
+    width: 25%;
+  }
+}
