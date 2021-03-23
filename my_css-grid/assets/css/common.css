@@ -49,3 +49,9 @@ body{
 .dark-theme{
   background-color: var(--primary-background-color);
 }
+
+@media screen and (max-width: 768px){
+  .content-block{
+    max-width: 100%;
+  }
+}
